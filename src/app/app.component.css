@@ -1,0 +1,8 @@
+  .inactive {
+   background-color: #CCCCCC;
+   color: rgba(#000000, .85);
+  }
+​.active {
+   background-color: #00C853;
+   color: rgba(#FFFFFF, .85);
+  }

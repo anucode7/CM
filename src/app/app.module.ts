@@ -1,16 +1,22 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
-
+import { NgModule, Inject } from '@angular/core';
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
+import { Ng4LoadingSpinnerModule } from 'ng4-loading-spinner';
+import { TimeAgoPipe} from 'time-ago-pipe';
+import { InViewportModule } from 'ng-in-viewport';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TimeAgoPipe
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
+    Ng4LoadingSpinnerModule,
+    InViewportModule
   ],
   providers: [],
   bootstrap: [AppComponent]
