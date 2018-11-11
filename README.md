@@ -1,7 +1,8 @@
 # CMReq6 Requirement 6
 Create a page based on (the included) require-3.html (or edit the file directly), and load the
 contents of test.jsonp into it.
-
+View solution below : 
+![](requirement6.gif)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
 ## Development server
@@ -27,4 +28,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-![](requirement6.gif)
+
