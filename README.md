@@ -1,4 +1,4 @@
-# CMReq6 Requirement 6
+# CM Requirement 6
 Create a page based on (the included) require-3.html (or edit the file directly), and load the
 contents of test.jsonp into it.
 View solution below : 
